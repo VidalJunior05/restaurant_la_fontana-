@@ -1,0 +1,641 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>La Fontana</title>
+
+    <link rel="stylesheet" href="https://unpkg.com/swiper@7/swiper-bundle.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="https://unpkg.com/swiper@7/swiper-bundle.min.css" />
+    <link rel="shortcut icon" href="images/iconeLaFontana.ico" type="image/x-icon">
+</head>
+<body>
+    <header>
+        <a href="#" class="logo"><i class="fas fa-utensils"></i>La Fontana</a>
+        
+        <nav class="menu">
+            <a class="active-menu" href="#home">Home</a>
+            <a href="#dishes">Pratos</a>
+            <a href="#about">Sobre Nós</a>
+            <a href="#menu">Cardápio</a>
+            <a href="#review">Depoimentos</a>
+            <a href="#order">Delivery</a>
+        </nav>
+
+        <div class="iconsMenu">
+            <i class="fas fa-bars" id="barsMenu"></i>
+            <i class="fas fa-search" id="searchMenu"></i>
+            <a href="#" class="fas fa-heart"></a>
+            <a href="#" class="fas fa-shopping-cart"></a>
+        </div>
+    </header>
+
+    <form action="" id="search-form">
+        <input type="search" name="" id="search-box" placeholder="Pesquise aqui">
+        <label for="search-box" class="fas fa-search"></label>
+        <i class="fas fa-times" id="close"></i>
+    </form>
+
+    <section class="home" id="home">
+
+        <div class="swiper home-slider mySwiper">
+            <div class="swiper-wrapper wrapper">
+
+                <div class="swiper-slide slide">
+                    <div class="content">
+                        <span>Pratos em destaque</span>
+                        <h3>Macarronada Inglesa</h3>
+                        <p>Uma macarronada com um toque especial, que só nós temos.</p>
+                        <a href="#" class="btn">Peça agora</a>
+                    </div>
+                    <div class="image">
+                        <img src="images/home-img-1.png" alt="Noodles dish">
+                    </div>
+                </div>
+
+                <div class="swiper-slide slide">
+                    <div class="content">
+                        <span>Pratos em destaque</span>
+                        <h3>Frango Picante</h3>
+                        <p>Com manteiga e ervas frescas, prove a mais saborosa receita de frango assado.</p>
+                        <a href="#" class="btn">order now</a>
+                    </div>
+                    <div class="image">
+                        <img src="images/home-img-2.png" alt="Noodles dish">
+                    </div>
+                </div>
+
+                <div class="swiper-slide slide">
+                    <div class="content">
+                        <span>Pratos em destaque</span>
+                        <h3>Pizza americana</h3>
+                        <p>A Pizza mais vendida de São Paulo.</p>
+                        <a href="#" class="btn">order now</a>
+                    </div>
+                    <div class="image">
+                        <img src="images/home-img-3.png" alt="Noodles dish">
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="swiper-pagination"></div>
+        </div>
+    </section>
+
+    <section class="dishes" id="dishes">
+        <h3 class="sub-heading"> Nossos Pratos </h3>
+        <h3 class="heading"> Em destaque </h3>
+
+        <div class="box-container">
+
+            <div class="box">
+                <a href="#" class="fas fa-heart"></a>
+                <a href="#" class="fas fa-eye"></a>
+                <img src="images/dish-1.png" alt="Dish 01"/>
+                <h3>X-Tudo</h3>
+
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+                <span>R$ 18,99</span>
+                <a href="#" class="btn">add to cart</a>
+            </div>
+
+            <div class="box">
+                <a href="#" class="fas fa-heart"></a>
+                <a href="#" class="fas fa-eye"></a>
+                <img src="images/dish-2.png" alt="Dish 01"/>
+                <h3>Empanado de Frango</h3>
+
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+                <span>R$ 4,50</span>
+                <a href="#" class="btn">add to cart</a>
+            </div>
+
+            <div class="box">
+                <a href="#" class="fas fa-heart"></a>
+                <a href="#" class="fas fa-eye"></a>
+                <img src="images/dish-3.png" alt="Dish 01"/>
+                <h3>Frango</h3>
+
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+                <span>R$ 17,00</span>
+                <a href="#" class="btn">add to cart</a>
+            </div>
+
+            <div class="box">
+                <a href="#" class="fas fa-heart"></a>
+                <a href="#" class="fas fa-eye"></a>
+                <img src="images/dish-4.png" alt="Dish 01"/>
+                <h3>Pizza Americana</h3>
+
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+                <span>R$ 24,55</span>
+                <a href="#" class="btn">add to cart</a>
+            </div>
+
+            <div class="box">
+                <a href="#" class="fas fa-heart"></a>
+                <a href="#" class="fas fa-eye"></a>
+                <img src="images/dish-5.png" alt="Dish 01"/>
+                <h3>Chocolate Salago</h3>
+
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+                <span>R$ 7,89</span>
+                <a href="#" class="btn">add to cart</a>
+            </div>
+
+            <div class="box">
+                <a href="#" class="fas fa-heart"></a>
+                <a href="#" class="fas fa-eye"></a>
+                <img src="images/dish-6.png" alt="Dish 01"/>
+                <h3>Coxa de Frango</h3>
+
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+                <span>R$ 12,35</span>
+                <a href="#" class="btn">add to cart</a>
+            </div>
+        </div>
+    </section>
+
+    <section class="about" id="about">
+        <h3 class="sub-heading">Sobre nós</h3>
+        <h3 class="heading"> Um resumo da nossa história </h3>
+
+        <div class="row">
+
+            <div class="image">
+                <img src="images/about-img.png" alt="Dish about">
+            </div>
+
+            <div class="content">
+                <h3>O restaurante La Fontana,</h3>
+                <p>Foi fundado em 1995 pelo empresário brasileiro Jonas Portella, seguindo as tradições familiares Jonas resolveu entrar no ramo da culinária.</p>
+                <p>Logo obteve sucesso com o seu primeiro restaurante, com um olhar visionário Jonas foi aos poucos aumentando a rede de restaurantes, e hoje contamos com 13 restaurantes espalhados pelo Brasil.</p>
+                <div class="icons-container">
+                    <div class="icons">
+                        <i class="fas fa-shipping-fast"></i>
+                        <span>delivery grátis</span>
+                    </div>
+                    <div class="icons">
+                        <i class="fas fa-dollar-sign"></i>
+                        <span>pagamentos</span>
+                    </div>
+                    <div class="icons">
+                        <i class="fas fa-headset"></i>
+                        <span>atendimento online</span>
+                    </div>
+                </div>
+                <a href="#" class="btn">Saiba mais</a>
+            </div>
+
+        </div>
+    </section>
+
+    <section class="menu" id="menu">
+        <h3 class="sub-heading"> Cardápio</h3>
+        <h3 class="heading"> Nossas especialidades</h3>
+
+        <div class="box-container">
+            <div class="box">
+                <div class="image">
+                    <img src="images/menu-1.jpg" alt="Dish Menu">
+                    <a href="#" class="fas fa-heart"></a>
+                </div>
+                <div class="content">
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <h3>Pizza de calabresa</h3>
+                    <p>Pizza feita com ingredientes especiais.</p>
+                    <a href="#" class="btn">add to cart</a>
+                    <span class="price">R$ 27,00</span>
+                </div>
+            </div>
+            <div class="box">
+                <div class="image">
+                    <img src="images/menu-2.jpg" alt="Dish Menu">
+                    <a href="#" class="fas fa-heart"></a>
+                </div>
+                <div class="content">
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <h3>Burger completo</h3>
+                    <p>Hamburguer, presunto, tomate, alface, molho da casa, cebola, mostarda; </p>
+                    <a href="#" class="btn">add to cart</a>
+                    <span class="price">R$ 14,20</span>
+                </div>
+            </div>
+            <div class="box">
+                <div class="image">
+                    <img src="images/menu-3.jpg" alt="Dish Menu">
+                    <a href="#" class="fas fa-heart"></a>
+                </div>
+                <div class="content">
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <h3>Panqueca Belga</h3>
+                    <p>A panqueca que sucesso na Bélgica, agora você encontra aqui. </p>
+                    <a href="#" class="btn">add to cart</a>
+                    <span class="price">R$ 7,90</span>
+                </div>
+            </div>
+            <div class="box">
+                <div class="image">
+                    <img src="images/menu-4.jpg" alt="Dish Menu">
+                    <a href="#" class="fas fa-heart"></a>
+                </div>
+                <div class="content">
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <h3>Sobremessa achocolatada</h3>
+                    <p>A mais saborosa!</p>
+                    <a href="#" class="btn">add to cart</a>
+                    <span class="price">R$ 17,00</span>
+                </div>
+            </div>
+            <div class="box">
+                <div class="image">
+                    <img src="images/menu-5.jpg" alt="Dish Menu">
+                    <a href="#" class="fas fa-heart"></a>
+                </div>
+                <div class="content">
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <h3>Torta de frutas</h3>
+                    <p>Torta com frutas e com a calda tosk que é exclusiva do La Fontana</p>
+                    <a href="#" class="btn">add to cart</a>
+                    <span class="price">R$ 26,58</span>
+                </div>
+            </div>
+            <div class="box">
+                <div class="image">
+                    <img src="images/menu-6.jpg" alt="Dish Menu">
+                    <a href="#" class="fas fa-heart"></a>
+                </div>
+                <div class="content">
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <h3>Cupcake</h3>
+                    <p>Feito com uma receita que só nós temos</p>
+                    <a href="#" class="btn">add to cart</a>
+                    <span class="price"> R$ 8,90</span>
+                </div>
+            </div>
+            <div class="box">
+                <div class="image">
+                    <img src="images/menu-7.jpg" alt="Dish Menu">
+                    <a href="#" class="fas fa-heart"></a>
+                </div>
+                <div class="content">
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <h3>Suco</h3>
+                    <p>Inúmeras opções </p>
+                    <a href="#" class="btn">add to cart</a>
+                    <span class="price">R$ 11,50</span>
+                </div>
+            </div>
+            <div class="box">
+                <div class="image">
+                    <img src="images/menu-8.jpg" alt="Dish Menu">
+                    <a href="#" class="fas fa-heart"></a>
+                </div>
+                <div class="content">
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <h3>Açai na tigela</h3>
+                    <p>O cliente pode adicionar diversos ingredientes</p>
+                    <a href="#" class="btn">add to cart</a>
+                    <span class="price">R$ 21,00</span>
+                </div>
+            </div>
+            <div class="box">
+                <div class="image">
+                    <img src="images/menu-9.jpg" alt="Dish Menu">
+                    <a href="#" class="fas fa-heart"></a>
+                </div>
+                <div class="content">
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <h3>Suco frutas cítricas</h3>
+                    <p>Suco de laranja, acerola, manga ao leite, kiwi com morango, limonada.</p>
+                    <a href="#" class="btn">add to cart</a>
+                    <span class="price">R$ 8,00</span>
+                </div>
+            </div>
+
+        </div>
+
+    </section>
+
+    <section class="review" id="review">
+        <h3 class="sub-heading"> Depoimentos</h3>
+        <h3 class="heading"> O que dizem nossos clientes</h3>
+        
+        <div class=" swiper review-slider mySwiper">
+            
+            <div class="swiper-wrapper">
+
+                <div class="swiper-slide slide">
+                    <i class="fas fa-quote-right"></i>
+                    <div class="user">
+                        <img src="images/avatar1.png" alt="Avatar 01"/>
+                        <div class="user-info">
+                            <h3>john deo</h3>
+                            <div class="stars">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star-half-alt"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <p>Excelente atendimento e comida deliciosa, sou cliene de carteira assinada.</p>
+                </div>
+
+                <div class="swiper-slide slide">
+                    <i class="fas fa-quote-right"></i>
+                    <div class="user">
+                        <img src="images/avatar2.png" alt="Avatar 02"/>
+                        <div class="user-info">
+                            <h3>Derika Palok</h3>
+                            <div class="stars">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star-half-alt"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <p>Uma comida com um sabor incomparável, sem falar no ambiente que é muito agradável.</p>
+                </div>
+
+                <div class="swiper-slide slide">
+                    <i class="fas fa-quote-right"></i>
+                    <div class="user">
+                        <img src="images/avatar3.png" alt="Avatar 03"/>
+                        <div class="user-info">
+                            <h3>David Hugosk</h3>
+                            <div class="stars">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star-half-alt"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <p>Excelente atendimento, local agradável, comida muito saborosa e cliente super satisfeito.</p>
+                </div>
+
+                <div class="swiper-slide slide">
+                    <i class="fas fa-quote-right"></i>
+                    <div class="user">
+                        <img src="images/avatar4.png" alt="Avatar 04"/>
+                        <div class="user-info">
+                            <h3>Tatiane Nusk</h3>
+                            <div class="stars">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star-half-alt"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <p>A melhor comida da região, uma qualidade impecável e um sabor diferenciado.</p>
+                </div>
+                
+                <div class="swiper-slide slide">
+                    <i class="fas fa-quote-right"></i>
+                    <div class="user">
+                        <img src="images/avatar5.jpg" alt="Avatar 05"/>
+                        <div class="user-info">
+                            <h3>Olivia Nunes</h3>
+                            <div class="stars">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star-half-alt"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <p>Me tornei cliente através de uma indicação. Tudo perfeito desde do atendimento até a comida.</p>
+                </div>
+
+                <div class="swiper-slide slide">
+                    <i class="fas fa-quote-right"></i>
+                    <div class="user">
+                        <img src="images/avatar6.jpg" alt="Avatar 06"/>
+                        <div class="user-info">
+                            <h3>Prelisk Olok</h3>
+                            <div class="stars">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star-half-alt"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <p>Já visitei várias franquias e posso falar com autoridade que é o melhor da Região.</p>
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <section class="order" id="order">
+        <h3 class="sub-heading"> Faça o seu pedido</h3>
+        <h3 class="heading"> Entrega super rápida</h3>
+
+        <form action="">
+
+            <div class="inputBox">
+                <div class="input">
+                    <span>Nome</span>
+                    <input type="text" placeholder="Digite seu nome" />
+                </div>
+                <div class="input">
+                    <span>Número</span>
+                    <input type="number" placeholder="Digite seu número" />
+                </div>
+            </div>
+
+            <div class="inputBox">
+                <div class="input">
+                    <span>Seu Pedido</span>
+                    <input type="text" placeholder="Seu pedido" />
+                </div>
+                <div class="input">
+                    <span>Pedido adicional</span>
+                    <input type="text" placeholder="Pedido adicional" />
+                </div>
+            </div>
+
+            <div class="inputBox">
+                <div class="input">
+                    <span>quantidade</span>
+                    <input type="number" placeholder="Quantidade" min="1" />
+                </div>
+                <div class="input">
+                    <span>Data e hora</span>
+                    <input type="datetime-local" />
+                </div>
+            </div>
+
+            <div class="inputBox">
+                <div class="input">
+                    <span>Seu endereço</span>
+                    <textarea name="" placeholder="Digite seu endereço"></textarea>
+                </div>
+                <div class="input">
+                    <span>Sua mensagem</span>
+                    <textarea name="" placeholder="Digite sua mensagem"></textarea>
+                </div>
+            </div>
+
+            <input type="submit" value="Peça agora" class="btn">
+
+        </form>
+    </section>
+
+    <section class="footer">
+        <div class="box-container">
+            <div class="box">
+                <h3>Franquias</h3>
+                <a href="#">São Paulo</a>
+                <a href="#">Brasília</a>
+                <a href="#">Minas Gerais</a>
+                <a href="#">Rio de Janeiro</a>
+                <a href="#">Fortaleza</a>
+            </div>
+            <div class="box">
+                <h3>Acesso rápido</h3>
+                <a href="#home">Home</a>
+                <a href="#dishes">Pratos</a>
+                <a href="#about">Sobre Nós</a>
+                <a href="#menu">Cardápio</a>
+                <a href="#review">Depoimentos</a>
+                <a href="#order">Delivery</a>
+            </div>
+            <div class="box">
+                <h3>Contatos</h3>
+                <a href="#">(88) 9999-00052</a>
+                <a href="#">(88) 9777-00052</a>
+                <a href="#">lafontana@gmail.com</a>
+                <a href="#">lafontana2@gmail.com</a>
+                <a href="#">Rua dos Palmares, São Paulo, 4052</a>
+            </div>
+            <div class="box">
+                <h3>Redes sociais</h3>
+                <a href="#">facebook</a>
+                <a href="#">instagram</a>
+                <a href="#">twitter</a>
+                <a href="#">linkedin</a>
+            </div>
+        </div>
+
+        <div class="credit">
+            copyright @VidalJunior05
+        </div>
+    </section>
+
+    <div class="loader-container">
+        <img src="images/loader3.gif" alt="Loader"/>
+    </div>
+
+
+    <script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>
+    <script src="js/script.js"></script>
+</body>
+</html>
+
